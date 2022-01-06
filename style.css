@@ -18,6 +18,11 @@ h3{
     font-size: 40px;
 }
 
+
+h4{
+    font-size: 30px;
+}
+
 .flex-container{
     display:flex;
 }
@@ -92,4 +97,8 @@ p{
 
 .card-desc{
     padding: 20px;
+}
+
+.dev-img img{
+    width: 65%;
 }
