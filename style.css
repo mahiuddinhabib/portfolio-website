@@ -1,0 +1,63 @@
+body{
+    margin-left: 35px;
+}
+
+.flex-container{
+    display:flex;
+}
+
+p{
+    font-size: 25px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.profile-text{
+
+}
+
+.profile-text span{
+    color: darkblue;
+}
+
+.profile-text h1{
+    font-size: 90px;
+}
+
+.profile-text-header{
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    border-left: navy solid 6px;
+}
+
+.profile-text-desc{
+
+}
+
+.profile-text-desc{
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.profile-img{
+    padding-left: 0px;
+}
+
+.profile-img img{
+    margin-left: 50px;
+    width: 70%;
+}
+
+.button{
+    text-decoration: none;
+    background-color: rgb(16, 16, 197);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+
+}
