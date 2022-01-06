@@ -2,6 +2,22 @@ body{
     margin-left: 35px;
 }
 
+span{
+    color: darkblue;
+}
+
+h1{
+    font-size: 90px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+}
+
 .flex-container{
     display:flex;
 }
@@ -16,14 +32,6 @@ p{
 
 .profile-text{
 
-}
-
-.profile-text span{
-    color: darkblue;
-}
-
-.profile-text h1{
-    font-size: 90px;
 }
 
 .profile-text-header{
@@ -49,7 +57,7 @@ p{
 
 .profile-img img{
     margin-left: 50px;
-    width: 70%;
+    width: 60%;
 }
 
 .button{
@@ -60,4 +68,28 @@ p{
     color: white;
     font-weight: 800;
 
+}
+
+.card-section h2{
+    text-align: center;
+}
+
+.card{
+    height: 450px;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 27px;
+    background-color: lightblue;
+}
+
+.card-img{
+    
+}
+
+.card-img img{
+    width: 50%;
+}
+
+.card-desc{
+    padding: 20px;
 }
