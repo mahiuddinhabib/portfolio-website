@@ -1,31 +1,31 @@
 body{
     margin-left:0;
     padding: 0;
-    background-color: wheat;
 }
 
 span{
-    color: darkblue;
+    color: #2800FF;
 }
 
 h1{
-    font-size: 90px;
-    background-color: yellow;
+    font-size: 80px;
+    font-family: 'Righteous', cursive;
 }
 
 h2{
     font-size: 60px;
-    background-color: yellow;
+    font-family: 'Bree Serif', serif;
 }
 
 h3{
     font-size: 40px;
-    background-color: yellow;
+    font-family: 'Bree Serif', serif;
 }
 
 
 h4{
     font-size: 30px;
+    font-family: 'Bree Serif', serif;
 }
 
 .flex-container{
@@ -34,6 +34,7 @@ h4{
 
 p{
     font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .half-width{
@@ -41,7 +42,7 @@ p{
 }
 
 .profile-text{
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .profile-text-header{
@@ -49,37 +50,26 @@ p{
     padding-bottom: 0px;
     margin-top: 120px;
     margin-bottom: 0px;
-    border-left: navy solid 6px;
-    background-color: aquamarine;
+    border-left: #2500EC solid 6px;
 }
 
 .profile-text-desc{
 
-}
-
-.profile-text-desc{
-    font-size: 25px;
-    margin-top: 0px;
-    background-color: cornflowerblue;
 }
 
 .profile p{
     
 }
 
-.profile-img{
-    background-color: darkkhaki;
-}
-
 .profile-img img{
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
     width: 65%;
-    background-color: darkorange;
 }
 
 .button{
     text-decoration: none;
-    background-color: rgb(16, 16, 197);
+    background-color: #2500EC;
     padding: 12px 35px;
     border-radius: 7px;
     color: white;
@@ -90,7 +80,6 @@ p{
 .card-section{
     padding-bottom: 80px;
     margin:0 10%;
-    background-color: deeppink;
 }
 
 
@@ -103,7 +92,6 @@ p{
     width: 30%;
     margin: 0 auto;
     border-radius: 27px;
-    background-color: lightblue;
 }
 
 .card-img{
@@ -112,6 +100,18 @@ p{
 
 .card-img img{
     width: 50%;
+}
+
+.color1{
+    background-color:#89C3FF ;
+}
+
+.color2{
+    background-color: #EABFFF;
+}
+
+.color3{
+    background-color: #89FFE7;
 }
 
 .develop{
@@ -129,7 +129,6 @@ p{
 
 .dev-img{
     margin-left: 10%;
-    background-color: lawngreen;
 }
 
 .dev-img img{
@@ -139,21 +138,20 @@ p{
 .dev-desc{
     width: 710px;
     padding-left: 50px;
-    background-color: rgb(104, 94, 3);
 }
 
 .community {
     padding-top: 60px;
+    padding-bottom: 65px;
     background-image: url(images/images.png);
     background-repeat: no-repeat;
-    background-position-x: 1200px;
-    background-position-y: 400px ;
+    background-position-x: 1170px;
+    background-position-y: 370px ;
 }
 
 .community-desc{
     width: 710px;
     margin-left: 10%;
-    background-color: lime;
 }
 
 .community-img img{
@@ -179,10 +177,6 @@ p{
     text-align: center;
 }
 
-.footer{
-    background-color: black;
-}
-
 footer{
     color: white;
 }
@@ -192,7 +186,12 @@ footer{
 }
 
 .footer {
+    background-color: black;
     text-align: center;
     padding:20px;
     margin-top: 50px;
+}
+
+.footer h3{
+    font-family: 'Lobster', cursive;
 }
